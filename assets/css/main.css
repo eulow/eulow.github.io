@@ -3000,7 +3000,7 @@
 /* Footer */
 
 	#footer {
-		padding: 6em 0 6em 0 ;
+		padding: 5em 0 6em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
@@ -3476,5 +3476,15 @@ li.experience {
 }
 
 .fixed-icon {
-	padding: 10px;
+	padding: 5px;
+}
+
+.info-icons {
+	margin-top: 25px;
+}
+
+.info-icons a {
+	padding: 0 10px;
+	font-size: 35px;
+	color: #4d4d4d;
 }
