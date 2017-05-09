@@ -1857,6 +1857,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #555;
+		/*color: #4d4d4d;*/
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -1869,6 +1870,7 @@
 	h1 {
 		font-size: 2.25em;
 		line-height: 1.35em;
+		/*color: #4d4d4d;*/
 	}
 
 	h2 {
@@ -3486,5 +3488,9 @@ li.experience {
 .info-icons a {
 	padding: 0 10px;
 	font-size: 35px;
-	color: #4d4d4d;
+	color: #50656f;
+}
+
+.fa-diamond {
+	color: #50656f;
 }
