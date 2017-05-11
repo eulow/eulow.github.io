@@ -3477,6 +3477,10 @@ li.experience {
 	padding: 10px;
 }
 
+.corner-icons a:last-child {
+	margin-left: 5px;
+}
+
 .fixed-icon {
 	padding: 5px;
 }
@@ -3488,7 +3492,7 @@ li.experience {
 .info-icons a {
 	padding: 0 10px;
 	font-size: 35px;
-	color: #50656f;
+	/*color: #50656f;*/
 }
 
 .fa-diamond {
