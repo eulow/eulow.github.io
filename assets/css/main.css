@@ -56,6 +56,12 @@
 	/*margin: auto;*/
 }
 
+#profile {
+	width: 60%;
+	margin: 10% auto;
+	padding-bottom: 1em;
+}
+
 .centered-content {
 	margin:auto;
 	text-align: center;
@@ -2986,7 +2992,8 @@
 			opacity: 0;
 		}
 
-	body.is-loading #header:after {
+	body.is-loading #
+	 {
 		opacity: 1;
 	}
 
@@ -2996,12 +3003,6 @@
 		padding: 5em 0 6em 0 ;
 		/*background-color: #4686a0;*/
 		color: rgba(255, 255, 255, 0.75);
-		/*background-attachment: fixed,	fixed;
-    background-image: url(images/overlay1.png), url(../../images/header.jpg);*/
-		/*background-attachment: fixed,							fixed,							fixed;*/
-		/*background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);*/
-		/*background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;*/
 		text-align: center;
 		background: linear-gradient(to right, rgba(51, 51, 51, 0.72), rgba(98, 105, 109, 0.38))
 	}
@@ -3196,9 +3197,9 @@
 			}
 
 				ul.major-icons li .icon {
-					height: 7em;
+					height: 4.8em;
 					line-height: 7em;
-					width: 7em;
+					width: 4.8em;
 				}
 
 		/* Main */
