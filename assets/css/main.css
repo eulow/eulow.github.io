@@ -2416,16 +2416,11 @@
 			}
 
 				ul.major-icons li .icon {
-					/*-moz-transform: rotate(45deg);*/
-					/*-webkit-transform: rotate(45deg);
-					-ms-transform: rotate(45deg);
-					transform: rotate(45deg);*/
 					border-radius: 4px;
 					display: inline-block;
 					height: 4.8em;
 					line-height: 8em;
 					margin: 0;
-					/*text-align: center;*/
 					width: 4.8em;
 				}
 
@@ -2715,7 +2710,7 @@
 /* Main */
 
 	.main {
-		padding: 4em 0 4em 0 ;
+		padding: 2em 0 1em 0 ;
 	}
 
 		.main.style1 {
@@ -2928,7 +2923,7 @@
 				width: 1px;
 			}
 
-		#header .inner {
+		/*#header .inner {
 			-moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
 			-webkit-transition: -webkit-transform 1.5s ease, opacity 2s ease;
 			-ms-transition: -ms-transform 1.5s ease, opacity 2s ease;
@@ -2944,9 +2939,9 @@
 			opacity: 1;
 			position: relative;
 			z-index: 1;
-		}
+		}*/
 
-			#header .inner .actions {
+			/*#header .inner .actions {
 				-moz-transition: -moz-transform 1.25s ease;
 				-webkit-transition: -webkit-transform 1.25s ease;
 				-ms-transition: -ms-transform 1.25s ease;
@@ -2974,7 +2969,7 @@
 			position: absolute;
 			top: 0;
 			width: 100%;
-		}
+		}*/
 
 	body.is-loading #header .inner {
 		-moz-transform: scale(1.05);
@@ -3159,7 +3154,7 @@
 		/* Main */
 
 			.main {
-				padding: 4em 0 2em 0 ;
+				padding: 1em 0 1em 0 ;
 			}
 
 				.main.style2 {
@@ -3169,7 +3164,7 @@
 		/* Header */
 
 			#header {
-				padding: 2em 0 2em 0 ;
+				padding: 4em 0 4em 0 ;
 				background-attachment: scroll;
 			}
 
@@ -3205,13 +3200,13 @@
 		/* Main */
 
 			.main {
-				padding: 5em 3em 3em 3em ;
+				padding: 2em 3em 1em 3em ;
 			}
 
 		/* Header */
 
 			#header {
-				padding: 2em 3em 2em 3em ;
+				padding: 4em 3em 4em 3em ;
 			}
 
 		/* Footer */
@@ -3223,7 +3218,7 @@
 		/* One */
 
 			#one {
-				text-align: center;
+				/*text-align: center;*/
 			}
 
 		/* Two */
@@ -3302,7 +3297,7 @@
 		/* Header */
 
 			#header {
-				padding: 4em 3em 4em 3em ;
+				padding: 2em 3em 2em 3em ;
 			}
 
 				#header .actions {
@@ -3367,7 +3362,7 @@
 		/* Main */
 
 			.main {
-				padding: 2em 1.5em 0.1em 1.5em ;
+				padding: 2em 1.5em 2em 1.5em ;
 			}
 
 		/* Header */
@@ -3416,7 +3411,7 @@
 		/* Main */
 
 			.main {
-				padding: 2em 1em 0.1em 1em ;
+				padding: 2em 1em 2em 1em ;
 			}
 
 		/* Header */
