@@ -50,12 +50,10 @@
 		box-sizing: border-box;
 	}
 
+
 #profile-picture {
-	position: relative;
-	top: 40px;
-	width: 320px;
-	height: 300px;
-	margin: auto;
+	height: 100%;
+	/*margin: auto;*/
 }
 
 .centered-content {
@@ -2339,7 +2337,8 @@
 
 			.image.fit img {
 				width: 100%;
-				height: 240px;
+				height: 14em;
+				display: block;
 			}
 
 /* List */
@@ -2714,15 +2713,16 @@
 	}
 
 		.main.style1 {
-			background: #fff;
+			background: linear-gradient(to right, rgba(179, 185, 195, 0.2), rgba(98, 105, 109, 0.38));
 		}
 
 		.main.style2 {
-			background-color: #333;
+			/*background-color: #333;*/
 			color: rgba(255, 255, 255, 0.75);
-			background-attachment: fixed,							fixed;
+			/*background-attachment: fixed,							fixed;
 			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
-			background-size: auto,							cover;
+			background-size: auto,							cover;*/
+			background: linear-gradient(to right, rgba(51, 51, 51, 0.72), rgba(98, 105, 109, 0.38));
 		}
 
 			.main.style2 a {
@@ -2808,13 +2808,11 @@
 /* Header */
 
 	#header {
-		padding: 9em 0 9em 0 ;
-		background-color: #4686a0;
+		padding: 2em 0 2em 0 ;
+		/*background-color: #4686a0;*/
 		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url('https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/18814591_10209783787896380_8880253553319515623_o.jpg?oh=80817c711e961e247afbf67d429964e1&oe=59C93694');
+		background-position: left;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -2997,13 +2995,16 @@
 
 	#footer {
 		padding: 5em 0 6em 0 ;
-		background-color: #4686a0;
+		/*background-color: #4686a0;*/
 		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		/*background-attachment: fixed,	fixed;
+    background-image: url(images/overlay1.png), url(../../images/header.jpg);*/
+		/*background-attachment: fixed,							fixed,							fixed;*/
+		/*background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);*/
+		/*background-position: top left,						center center,					center center;
+		background-size: auto,							cover,							cover;*/
 		text-align: center;
+		background: linear-gradient(to right, rgba(51, 51, 51, 0.72), rgba(98, 105, 109, 0.38))
 	}
 
 		#footer a {
@@ -3124,7 +3125,7 @@
 		/* Header */
 
 			#header {
-				padding: 6em 0 6em 0 ;
+				padding: 4em 0 4em 0 ;
 			}
 
 	}
@@ -3150,9 +3151,9 @@
 			}
 
 				ul.major-icons li .icon {
-					height: 8em;
+					height: 4.8em;
 					line-height: 8em;
-					width: 8em;
+					width: 4.8em;
 				}
 
 		/* Main */
@@ -3168,7 +3169,7 @@
 		/* Header */
 
 			#header {
-				padding: 5em 0 5em 0 ;
+				padding: 2em 0 2em 0 ;
 				background-attachment: scroll;
 			}
 
@@ -3210,7 +3211,7 @@
 		/* Header */
 
 			#header {
-				padding: 8em 3em 8em 3em ;
+				padding: 2em 3em 2em 3em ;
 			}
 
 		/* Footer */
